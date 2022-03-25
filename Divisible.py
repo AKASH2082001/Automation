@@ -8,11 +8,11 @@ def Divisibleby7(x):
     
 class Checkdivisible1(unittest.TestCase):
     
-    def divisibleby7_1(self):
+    def test_divisibleby7_1(self):
         result = Divisibleby7(14)
         self.assertTrue(result)
         
-    def divisibleby7_2(self):
+    def test_divisibleby7_2(self):
         result = Divisibleby7(4)
         self.assertFalse(result)
 
